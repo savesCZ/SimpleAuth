@@ -1,0 +1,28 @@
+name: AuthMe
+version: 0.1.0
+author: saves
+description: sdasdas
+main: cz.saves.AuthMeV2.JoinRegister
+
+commands:
+  register:
+    description: register command
+    usages:  /register <password> <password>
+
+  login:
+    aliases: [l]
+    description: login command
+    usages: /login <YourPassword>
+
+  unregister:
+    description: unregister command
+    usages: /unregister <PlayerNick>
+
+  changepassword:
+    aliases: [zmenitheslo]
+    usages: /changepassword <OldPassword> <NewPassword>
+    description: Change password command
+
+
+
+
